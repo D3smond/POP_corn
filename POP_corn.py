@@ -104,7 +104,7 @@ class api_C():
 	secret_censys = "IpFLUkaxpJNtitqAkmxwQedDfcHEHN5Z"
 	url_censys = "https://www.censys.io/api/v1"
 	#em_z = "kenykenw@gmail.com"
-	#se_z = "wendel27071999"
+	#se_z = ""
 
 
 
