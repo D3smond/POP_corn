@@ -8,7 +8,7 @@ try:
 	import shodan
 	import json
 	import requests
-	import censys.certificates
+	#import censys.certificates
 	#from zoomeye import zoomeye
 	import sys
 	import time 
@@ -18,6 +18,8 @@ try:
 	#comment 1 try imports
 except Exception as e:
 	print("error: ", e)
+	os.system("pip install censys")
+	os.system("pip3 install censys")
 	os.system("easy_install shodan")
 	os.system("easy_install -U shodan")
 	os.system("easy_install zoomeye-SDK")
@@ -279,7 +281,7 @@ try:
 				list_pass.append("sshd\n")
 				list_pass.append("mysql\n")
 				list_pass.append("oracle\n")
-				list_pass.apppend("user\n")
+				list_pass.append("user\n")
 				list_pass.append("guest\n")
 				list_pass.append("info\n")
 				list_pass.append("nagios\n")
