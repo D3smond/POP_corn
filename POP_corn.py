@@ -254,7 +254,7 @@ try:
 				list_users.append("sshd\n")
 				list_users.append("mysql\n")
 				list_users.append("oracle\n")
-				list_users.apppend("user\n")
+				list_users.append("user\n")
 				list_users.append("guest\n")
 				list_users.append("info\n")
 				list_users.append("nagios\n")
